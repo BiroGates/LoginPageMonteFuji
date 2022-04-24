@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Poppins';
+    color: white; 
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+
+    background-image: url('../../assets/images/monte-fuji.jpg');
+    background-position: 40% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 500px;
+    height: 600px;
+
+    background-color: rgba(0, 0, 0, 0.347);
+}
+.login-box > *{
+    margin-bottom: 70px;
+}
+
+
+.login-pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 60%;
+    height: 80px;
+
+    color: white;
+    font-family: 'Poppins';
+}
+
+.login-pages .login, .register:hover{
+    cursor: pointer;
+}
+
+.login-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+
+    width: 60%;
+    height: auto;
+}
+
+.login-input > * {
+    margin-bottom: 10px;
+}
+
+.login-input input{
+    width: 100%;
+    height: 35px;
+
+    background-color: inherit;
+    border: inherit;
+    border-bottom: 1px solid white;
+}
+
+.login-input input:focus{
+    outline: none;
+}
+
+
+.login-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 60%;
+    height: 50px;
+
+    background-color: #E83A14;
+}
+
+.login-btn:hover{
+    cursor: pointer;
+}
